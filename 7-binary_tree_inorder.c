@@ -3,6 +3,7 @@
 /**
  * binary_tree_inorder - Traverse the tree
  * @tree: Root
+ * @func: Funtion pointer that return Nothing and take one argument
  *
  * Return: Nothing
  */
