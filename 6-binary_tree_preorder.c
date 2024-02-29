@@ -3,7 +3,9 @@
 /**
  * binary_tree_preorder - Traverse the tree
  * @tree: Root
- * 
+ * @func: Funtion pointer that return Nothing and take one argument
+ *
+ * Return: Nothing
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
